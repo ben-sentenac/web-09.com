@@ -1,0 +1,56 @@
+.site-branding {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .t-shadow-3d {
+        color:var(--textColor);
+        text-shadow:var(--textShadow3D);
+    }
+
+    .site-title {
+        font-size:1.3em;
+        margin-bottom:1.5em;
+    }
+
+    .branding-title {
+        font-size: 1.5em;
+        font-family: "Press Start 2P", cursive;
+        text-transform: uppercase;
+        margin-bottom: 1.5em;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+
+    .skills-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 5em;
+
+        &>svg {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
+
+@media (min-width:1024px) {
+    .site-branding {
+        .site-title {
+            font-size:3.5em;
+            margin-bottom:1.5em;
+        }
+    
+        .branding-title {
+            font-size: 2.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+}

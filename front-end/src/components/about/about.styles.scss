@@ -1,0 +1,21 @@
+.about-container {
+    display: block;
+    padding:1.5em 0;
+
+    .about-left {
+        svg.portrait {
+            width:100%;
+            height: auto;
+        }
+    }
+}
+
+@media (min-width:1024px) {
+    .about-container {
+        display:flex;
+    }
+
+    .about-right {
+        width:45%;
+    }
+}

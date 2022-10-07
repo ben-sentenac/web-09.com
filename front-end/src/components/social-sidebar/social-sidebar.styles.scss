@@ -1,0 +1,22 @@
+.socials.social-fixed-left {
+   display:none;
+}
+
+.socials {
+    display: flex;
+}
+
+.social-link {
+    width: 48px;
+    cursor: crosshair;
+}
+
+@media(min-width:1024px) {
+    .socials.social-fixed-left {
+        position: fixed;
+        display: block;
+        top: 50%;
+        left: 10px;
+        transform: translate(0, -50%);
+    }
+}
